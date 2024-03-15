@@ -1,0 +1,24 @@
+<html>
+    <div align="center">
+        <br><br><img id="img1" src="imagens/lampada acesa.jpg" width="200px" height="200px"><br><br>
+        <button id="btnacende">Acender</button>
+        <button id="btnapaga">apagar</button>
+
+
+    </div>
+    <br><br><br>
+</html>
+
+<script>
+
+    var botaoAcende = document.querySelector('#btnacende')
+    botaoAcende.addEventListener('click', function() {
+        document.querySelector('#img1').setAttribute('src', 'imagens/lampada acesa.jpg');
+    });
+
+    var botaoApaga = document.querySelector('#btnapaga')
+    botaoApaga.addEventListener('click', function() {
+        document.querySelector('#img1').setAttribute('src', 'imagens/lampada apagada.png');
+    });
+
+</script>

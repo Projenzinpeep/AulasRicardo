@@ -1,0 +1,39 @@
+<html>
+    <title>Site 2°F</title>
+    <body class="centralizado">
+        <table>
+            
+        </table>
+    </body>
+    <div align="center">
+        <br><br><img id="img1" src="imagens/Olhos abertos.png" height="200px"><br><br>
+        <button id="btnacordar">Acordar</button>
+        <button id="btndormir">Dormir</button>
+
+
+    </div>
+    <br><br><br>
+</html>
+
+<script>
+
+    var botaoAcordar = document.querySelector("#btnacordar");
+    botaoAcordar.addEventListener('click', function() {
+        document.querySelector('#img1').setAttribute('src', 'imagens/Olhos abertos.png');
+    });
+
+
+    var botaoDormir = document.querySelector('#btndormir')
+    botaoDormir.addEventListener('click', function() {
+        document.querySelector('#img1').setAttribute('src', 'imagens/Olhos fechados.png');
+    });
+
+    var x = 0;
+    var y = 0;
+
+    function minhaFuncaoAcoradar(){
+        document.getElementById("imagem").src = "Olhos abertos.png";
+        document.getElementById("botao")
+    }
+    
+</script>

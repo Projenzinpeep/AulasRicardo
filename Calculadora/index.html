@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora 2°F</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <center>
+        <div class="corpo">
+            <div class="calculadora">
+                <div>
+                    <input type="text" id="visor" value="0">
+                </div>
+                <div class="um">
+                    <button id="limpar1" onclick="apagarTudo()">CE</button>
+                    <button id="um" onclick="numero(1)">1</button>
+                    <button id="dois" onclick="numero(2)">2</button>
+                    <button id="tres" onclick="numero(3)">3</button>
+                    <button id="soma" onclick="somar()">+</button>
+                </div>
+    
+                <div>
+                    <button id="limpar2" onclick="apagar()">C</button>
+                    <button id="quatro" onclick="numero(4)">4</button>
+                    <button id="cinco" onclick="numero(5)">5</button>
+                    <button id="seis" onclick="numero(6)">6</button>
+                    <button id="sub" onclick="subtrair()">-</button>
+                </div>
+                <div>
+                    <button id="porcentagem" onclick="porcentagem()">%</button>
+                    <button id="sete" onclick="numero(7)">7</button>
+                    <button id="oito" onclick="numero(8)">8</button>
+                    <button id="nove" onclick="numero(9)">9</button>
+                    <button id="multi" onclick="multiplicar()">X</button>
+                </div>
+                <div>
+                    <button id="seta" onclick="seta()">-></button>
+                    <button id="virgula" onclick="virgula()">,</button>
+                    <button id="zero" onclick="numero(0)">0</button>
+                    <button id="igual" onclick="igual()">=</button>
+                    <button id="divisao" onclick="divisao()">/</button>
+                </div>
+            </div>
+        </div>    
+    </center>
+</body>
+</html>

@@ -40,5 +40,22 @@ function botao(valor){
         }
         operacao = valor;
         visor.value = 0;
+        return 0;
+    }else{
+        valorAtual = visor.value;
+        calculo = parseFloat(total) + operacao + parseFloat(valorAtual);
+        total = parseFloat(calculo);
     }
+
+    if (valor=="total"){
+            valorAtual = visor.value;
+            calculo = parseFloat(total) + operacao + parseFloat(valorAtual);
+            total = eval(calculo);
+            total = parseFloat(total);
+            visor.value = total;
+            return 0;
+    }else{
+        valorAtual = visor.value;
+    }
+    visor.value = (visor.value + '' + valor);
 }

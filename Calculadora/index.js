@@ -23,7 +23,7 @@ function botao(valor){
     if(visor.value=="" && valor=="0"){
         return 0;
     }
-    if(valor=='apagar'){
+    if(valor=='<-'){
         valor = visor.value.slice(0, -1)
         visor.value = valor;
         if(visor.value==""){

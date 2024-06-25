@@ -1,0 +1,19 @@
+.button{
+    height: 30px;
+    width: 41px;
+    border-style: groove;
+    border-color: darkred;
+}
+
+#igual{
+    width: 131px;
+    height: 30px;
+    border-style: groove;
+    border-color: darkred;
+}
+
+.visor{
+    width: 168px;
+    border-style: double;
+    border-color: crimson;
+}

@@ -5,47 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora 2°F</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
 </head>
 <body>
     <center>
-        <div class="corpo">
-            <div class="calculadora">
+        <div>
+            <div>
                 <div>
                     <input type="text" id="visor" class="visor" value="0">
                 </div>
                 <div>
-                    <button id="limpar1" class="button" onclick="">CE</button>
-                    <button id="igual" class="button" onclick="">=</button>
+                    <button id="limpar1" class="button" onclick="botao('CE')">CE</button>
+                    <button id="igual" onclick="botao('total')">=</button>
                 </div>
     
                 <div>
-                    <button id="um" class="button" onclick="">1</button>
-                    <button id="dois" class="button" onclick="">2</button>
-                    <button id="tres" class="button" onclick="">3</button>
-                    <button id="quatro" class="button" onclick="">4</button>
+                    <button id="um" class="button" onclick="botao(1)">1</button>
+                    <button id="dois" class="button" onclick="botao(2)">2</button>
+                    <button id="tres" class="button" onclick="botao(3)">3</button>
+                    <button id="quatro" class="button" onclick="botao(4)">4</button>
                 </div>
                 <div>
-                    <button id="cinco" class="button" onclick="">5</button>
-                    <button id="seis" class="button" onclick="">6</button>
-                    <button id="sete" class="button" onclick="">7</button>
-                    <button id="oito" class="button" onclick="">8</button>
+                    <button id="cinco" class="button" onclick="botao(5)">5</button>
+                    <button id="seis" class="button" onclick="botao(6)">6</button>
+                    <button id="sete" class="button" onclick="botao(7)">7</button>
+                    <button id="oito" class="button" onclick="botao(8)">8</button>
                 </div>
                 <div>
-                    <button id="nove" class="button" onclick="">9</button>
-                    <button id="zero" class="button" onclick="">0</button>
-                    <button id="limpar2" class="button" onclick=""><-</button>
-                    <button id="ponto" class="button" onclick="">.</button>
+                    <button id="nove" class="button" onclick="botao(9)">9</button>
+                    <button id="zero" class="button" onclick="botao(0)">0</button>
+                    <button id="limpar2" class="button" onclick="botao('<-')"><-</button>
+                    <button id="ponto" class="button" onclick="botao('.')">.</button>
                 </div>
                 <div>
-                    <button id="mais" class="button" onclick="">+</button>
-                    <button id="menos" class="button" onclick="">-</button>
-                    <button id="multi" class="button" onclick="">*</button>
-                    <button id="divis" class="button" onclick="">/</button>
+                    <button id="mais" class="button" onclick="botao('+')">+</button>
+                    <button id="menos" class="button" onclick="botao('-')">-</button>
+                    <button id="multi" class="button" onclick="botao('*')">*</button>
+                    <button id="divis" class="button" onclick="botao('/')">/</button>
                 </div>
             </div>
-        </div>    
+        </div>
     </center>
 </body>
 </html>

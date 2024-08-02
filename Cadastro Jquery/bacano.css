@@ -1,0 +1,122 @@
+body {
+           background-color:rgb(255, 255, 255); 
+}
+
+#inNome  {
+    background-color: #f0f0f0;
+    color: #333; 
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 16px;
+    cursor: pointer; 
+    width: 200px; 
+}
+
+#inData {
+    background-color: #f0f0f0; 
+    color: #333; 
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    cursor: pointer;
+    width: 200px; 
+}
+
+#inTel {
+    background-color: #f0f0f0; 
+    color: #333; 
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 10px;
+    border-radius: 10px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    width: 200px; 
+}
+
+#inRG {
+    background-color: #f0f0f0; 
+    color: #333; 
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    width: 200px; 
+}
+
+#inCPF {
+    background-color: #f0f0f0; 
+    color: #333;
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 10px;
+    border-radius: 10px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    width: 200px; 
+}
+
+#inCEP {
+    background-color: #f0f0f0; 
+    color: #333; 
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    width: 200px; 
+}
+
+#inNum {
+    background-color: #f0f0f0; 
+    color: #333; 
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    width: 200px; 
+}
+
+#inLog {
+    background-color: #f0f0f0; 
+    color: #333; 
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    cursor: pointer;
+    width: 200px;
+}
+
+#btCont {
+    background-color: #f0f0f0; 
+    color: rgb(0, 0, 0); 
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+#btCont:hover {
+        background-color: #081abb;
+        color: #ffffff;
+}
+
+#slcCidade {
+    background-color: #f0f0f0; 
+    color: #333; 
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    width: 200px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    
+}
+
+

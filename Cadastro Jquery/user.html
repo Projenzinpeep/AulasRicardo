@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastrante</title>
+    <title>Cadastro</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="jsdaora.js"></script>
 </head>
@@ -28,21 +28,21 @@
 <br>
 <br>
 
-    <input type="text" placeholder="Telefone" id="inTel">
-    <input type="text" placeholder="RG" id="inRG">
-    <input type="text" placeholder="CPF" id="inCPF">
+    <input type="text" maxlength="14" placeholder="Telefone" id="inTel">
+    <input type="text" maxlength="12" placeholder="RG" id="inRG">
+    <input type="text" maxlength="12" placeholder="CPF" id="inCPF">
 
 <br>
 <br>
 
-    <input type="text" placeholder="CEP" id="inCEP">
-    <input type="text" placeholder="N° Residencial" id="inNum">
+    <input type="text" maxlength="9" placeholder="CEP" id="inCEP">
+    <input type="text" maxlength="4" placeholder="N° Residencial" id="inNum">
     <input type="text" placeholder="Logradouro" id="inLog">
 
 <br>
 <br>
 
-    <button id="btCont" onclick="">Continuar</button>
+    <button id="btCont">Continuar</button>
 
 </body>
 </html>

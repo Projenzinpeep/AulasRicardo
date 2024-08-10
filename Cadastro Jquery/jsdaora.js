@@ -10,6 +10,51 @@ $(document).ready(function() {
         const nume = $('#inNum').val();
         const cep = $('#inCEP').val();
 
+        if (!nome) {
+            alert('Por favor, preencha o campo Nome.');
+            return;
+        }
+
+        if (!cid) {
+            alert('Por favor, selecione uma Cidade.');
+            return;
+        }
+
+        if (!ani) {
+            alert('Por favor, preencha o campo Data de Nascimento.');
+            return;
+        }
+
+        if (!tel) {
+            alert('Por favor, preencha o campo Telefone.');
+            return;
+        }
+
+        if (!rg) {
+            alert('Por favor, preencha o campo RG.');
+            return;
+        }
+
+        if (!cpf) {
+            alert('Por favor, preencha o campo CPF.');
+            return;
+        }
+
+        if (!cep) {
+            alert('Por favor, preencha o campo CEP.');
+            return;
+        }
+
+        if (!nume) {
+            alert('Por favor, preencha o campo N° Residencial.');
+            return;
+        }
+
+        if (!log) {
+            alert('Por favor, preencha o campo Logradouro.');
+            return;
+        }
+        
         const mensagem =
         'Nome: ' + nome + '\nCidade: ' + cid + '\nData de Nasc: ' + ani + 
         '\nTelefone: ' + tel + '\nRG: ' + rg + '\nCPF: ' + cpf +

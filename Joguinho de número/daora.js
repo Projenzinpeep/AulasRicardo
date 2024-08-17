@@ -1,10 +1,15 @@
 $(document).ready(function() {
+    var bacano = Math.floor(Math.random() * 100) + 1;
+    
+    $("#btBacana").click(function() {
+        var numuser = parseInt($("#txtRoleta").val());
 
-    var numeror = "";
-    //var bacano = 1 + Math.floor(Math.ramdom() * 100);
-
-    $("#btBacana").on("click", function() {
-        numeror = $("#txtRoleta").val();
-        alert(numeror);
+        if (numuser > bacano){
+            alert("O número é menor!");
+        } else if (numuser < bacano){
+            alert("O número é maior!");
+        } else {
+            alert("Você acertou e ganhou o esquema!");
+        }
     });
-}); 
+});

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro legal</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        //valor no contador
+        var num = 0;
+        //usando o setI, a cada 1 seg a function "num = num+1" ou também "num++" ocorre, somando 1 à variável
+        setInterval(function(){
+            num = num+1;
+        //num vai ser o valor mostrado no input
+            $('#nometro').val(num);
+        }, 1000);
+    });
+    </script>
+</head>
+<body>
+    <center>
+        <h1>Bem vindo ao cronômetro legal!</h1>
+        <input type="text" id="nometro" value="0">
+    </center>
+</body>
+</html>
